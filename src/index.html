@@ -5,117 +5,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="--------------">
-    <meta name="description" content="-----------">
+    <meta name="keywords" content="bootstrap, livraria, proa, instituto proa, proa profissão.">
+    <meta name="description" content="Site de uma livraria online fictícia, utilizando Bootstrap.">
     <meta name="author" content="Camila Carla Soares">
-    <title>Daily Tuition</title>
+
+    <title>Books - Bootstrap</title>
     <link rel="shortcut icon" href="../assets/header-img.png" type="image/x-icon">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <script src="https://kit.fontawesome.com/4d83557db8.js" crossorigin="anonymous"></script> <!--observação-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/4d83557db8.js" crossorigin="anonymous"></script>
+    <!--Links pastas internas-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile-style.css">
 </head>
 
-<body>    
+<body>
 
-  <header>
-    <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-          <i class="fas fa-book-reader fa-2x mx-3"></i>Books</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <i class="fas fa-align-right text-light"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="mr-auto"></div>
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">HOME
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CURSO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PREÇO</a>
-            </li>
-            <li class="nav-item dropdown">
-              <div class="dropdown">
-                <a href="#" class="nav-link">PÁGINAS</a>
-                <div class="dropdown-content">
-                  <a href="#">Genérico</a>
-                  <a href="#">Elemento</a>
+    <header>
+
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg">
+                
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-book-reader fa-2x mx-3"></i>Books</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-right text-light"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CURSO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PREÇO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">PÁGINAS</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Genérico</a>
+                                    <a href="#">Elemento</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SOBRE</a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">FACTO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SOBRE</a>
-            </li>
-          </ul>
+
+            </nav>
         </div>
-      </nav>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-7 col-sm-12  text-white">
-          <h6>AUTHOR: DAILY TUITION</h6>
-          <h1>AVENTURA EMOCIONANTE</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusamus eum dignissimos ipsa sequi expedita.
-          </p>
-          <button class="btn btn-light px-5 py-2 primary-btn">
-            Agora por $5.99
-          </button>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-7 col-sm-12  text-white">
+                    <h6>AUTORA: CAMILA CARLA SOARES</h6>
+                    <h1>AVENTURA EMOCIONANTE</h1>
+                    <p>
+                        Cada página uma emoção, uma sensação, cada livro um novo mundo, venha se aventurar, saia da sua sala e venha descobrir universos.
+                    </p>
+                    <button class="btn btn-light px-5 py-2 primary-btn">
+                        Agora por $5.99
+                    </button>
+                </div>
+                <div class="col-md-5 col-sm-12  h-25">
+                    <img src="../assets/header-img.png" alt="Book" />
+                </div>
+            </div>
         </div>
-        <div class="col-md-5 col-sm-12  h-25">
-          <img src="../assets/header-img.png" alt="Book" />
-        </div>
-      </div>
-    </div>
-  </header>
+
+    </header>
 
     <main>
         <section class="section-1">
+
             <div class="container text-center">
                 <div class="row">
+
                     <div class="col-md-6 col-12">
                         <div class="pray">
-                            <img src="../assets/pexels-photo-1904769.jpeg" alt="Pray" class=""/>
+                            <img src="../assets/pexels-photo-1904769.jpeg" alt="Pray" class="" />
                         </div>
                     </div>
+
                     <div class="col-md-6 col-12">
                         <div class="panel text-left">
                             <h1>Mr. Devid Smith</h1>
                             <p class="pt-4">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere iure adipisci harum ducimus accusantium, repudiandae aperiam
-                                 voluptatum, id ex ratione omnis reiciendis possimus officiis.
+                                Lembro-me de quando era criança, tinha o habito de olhar para o céu, de observar as nuvens, e por diversas vezes conseguia formar figura com as mesmas. Algumas pareciam anjos, outras tinham forma de pessoas em determinadas situações, sempre algo diferente.
+                                Gostava de vê-las se movimentarem rápido, por vezes deitava minha cabeça na janela e observava o céu de cabeça para baixo, era como se o mundo inteiro girasse aos meus pés, como se estivesse em um mar escuro, com ondas gigantes e devastadoras.
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae, tenetur quidem eum aliquid vel labore sint placeat
-                                ad deserunt consectetur fugit ullam. Eius unde neque ducimus obcaecati ipsum quos vero totam recusandae hic
-                                expedita nemo sit, illum harum. Quisquam impedit ullam itaque facere et ad molestiae quod reprehenderit excepturi!
+                                Há pessoas que reparam as estrelas, fazem pedidos, conversam com Deus… Eu apenas admirava a beleza, gostava de ver o dia se formar, quantas cores era possível ver em um dia num mesmo espaço… Azul, amarelo, laranja, preto, cinza…
+                                Queria poder voltar nesse tempo, onde tudo era tão mágico, tão diferente apesar de natural, onde os males não me alcançavam, onde a vida era mais leve de se carregar… É, o tempo passa e a infância fica pra trás. Mas apenas queria deixar aqui marcado o quanto sinto falta, o quanto queria voltar e reviver tudo de novo, ver com outros olhos.
                             </p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
+
         </section>
+
         <section class="section-2 container-fluid p-0">
+            
             <div class="cover">
                 <div class="overlay"></div>
                 <div class="content text-center">
                     <h1>Algumas características que nos tornaram únicos</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
+                        capacidade em não desistir mediante as dificuldades.
                     </p>
                 </div>
             </div>
+
             <div class="container-fluid text-center">
                 <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
                     <div class="rect">
@@ -137,68 +155,72 @@
                 </div>
             </div>
 
-
             <div class="purchase text-center">
-                <h1>Purchase Whatever You Want</h1>
+                <h1>Compre o que quiser</h1>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Preços acessíveis que cabem no seu bolço
                 </p>
                 <div class="cards">
                     <div class="d-flex flex-row justify-content-center flex-wrap">
+
                         <div class="card">
                             <div class="card-body">
                                 <div class="title">
                                     <h5 class="card-title">PDF</h5>
                                 </div>
                                 <p class="card-text">
-                                    With supporting text below as a natural lead-in.
+                                    Com texto de apoio abaixo como uma introdução natural.
                                 </p>
                                 <div class="pricing">
                                     <h1>$77.99</h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
+                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Compre agora</a>
                                 </div>
                             </div>
                         </div>
+
                         <div class="card">
                             <div class="card-body">
                                 <div class="title">
                                     <h5 class="card-title">E-book</h5>
                                 </div>
                                 <p class="card-text">
-                                    With supporting text below as a natural lead-in.
+                                    Com texto de apoio abaixo como uma introdução natural.
                                 </p>
                                 <div class="pricing">
                                     <h1>$99.99</h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
+                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Compre agora</a>
                                 </div>
                             </div>
                         </div>
+
                         <div class="card">
                             <div class="card-body">
                                 <div class="title">
                                     <h5 class="card-title">Print Copy</h5>
                                 </div>
                                 <p class="card-text">
-                                    With supporting text below as a natural lead-in.
+                                    Com texto de apoio abaixo como uma introdução natural.
                                 </p>
                                 <div class="pricing">
                                     <h1>$58.99</h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
+                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Compre agora</a>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
+
         </section>
+
         <section class="section-3 container-fluid p-0 text-center">
+
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <h1>Download Our App for all Platform</h1>
+                    <h1>Baixe nosso aplicativo para todas as plataformas</h1>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem alias perspiciatis omnis quod possimus odit
-                        voluptatum! Sunt ea quasi praesentium, tenetur doloribus animi obcaecati, sint nemo quae laudantium iusto unde
-                        eaque nostrum nobis voluptatum
+                        Tenha nossos livros na palma da sua mão onde você estiver, sem burocracia, não perca tempo, compre e leia a qualquer momento, salvando sua viagem de trem, festas tediosas e até mesmo aquele tempo que seria perdido por conta do atraso de algum colega.
                     </p>
                 </div>
             </div>
@@ -209,7 +231,7 @@
                             <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
                             <div class="text text-left">
                                 <h3 class="pt-1 m-0">Desktop</h3>
-                                <p class="p-0 m-0">On website</p>
+                                <p class="p-0 m-0">No site</p>
                             </div>
                         </div>
                     </div>
@@ -219,21 +241,24 @@
                         <div class="d-flex flex-row justify-content-center">
                             <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
                             <div class="text text-left">
-                                <h3 class="pt-1 m-0">On Mobile</h3>
-                                <p class="p-0 m-0">On Play Store</p>
+                                <h3 class="pt-1 m-0">No Celular</h3>
+                                <p class="p-0 m-0">Na Play Store</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
         <!-- Section 4 -->
         <section class="section-4">
+
             <div class="container text-center">
-                <h1 class="text-dark">What our Reader's Say about us</h1>
-                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                <h1 class="text-dark">O que nossos leitores dizem sobre nós</h1>
+                <p class="text-secondary">Sinceridade do público</p>
             </div>
+
             <div class="team row">
                 <div class="col-md-4 col-12 text-center">
                     <div class="card mr-2 d-inline-block shadow-lg">
@@ -243,11 +268,10 @@
                         <div class="card-body">
                             <h3 class="card-title">Blalock Jolene</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
-                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
+                                Muito prático, adorei, realmente salvou meu dia, estava passando por muito estresse, meu colega de trabalho marcou uma reunião e nada de aparecer, não estava ficando insuportável, me lembrei do app de você que instalei no meu celular, e já comecei a ler o tempo voou e o estresse foi embora.
                             </p>
-                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                            <p class="text-black-50">CEO at Google</p>
+                            <a href="#" class="text-secondary text-decoration-none">Salvador</a>
+                            <p class="text-black-50">CEO na Google</p>
                         </div>
                     </div>
                 </div>
@@ -257,32 +281,32 @@
                             <div class="carousel-item active">
                                 <div class="card mr-2 d-inline-block shadow">
                                     <div class="card-img-top">
-                                        <img src="../assets/UI-face-1.jpg" alt="" class="img-fluid rounded-circle w-50 p-4">
+                                        <img src="../assets/UI-face-1.jpg" alt=""
+                                            class="img-fluid rounded-circle w-50 p-4">
                                     </div>
                                     <div class="card-body">
                                         <h3 class="card-title">Allen Agnes</h3>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
-                                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
+                                            Estava com muito tédio, mas sem nenhum sono, minha viagem demoraria mais 2 horas, ficou ansioso de mais quando tenho que esperar muitas horas por algum, então decidi usar a plataforma de vocês, essas 2 horas passaram voando, para mim foram 30 minutos.
                                         </p>
-                                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                                        <p class="text-black-50">CEO at Google</p>
+                                        <a href="#" class="text-secondary text-decoration-none">São Paulo</a>
+                                        <p class="text-black-50">CEO no Bradesco</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="card  d-inline-block mr-2 shadow">
                                     <div class="card-img-top">
-                                        <img src="../assets/UI-face-2.jpg" alt="" class="img-fluid rounded-circle w-50 p-4">
+                                        <img src="../assets/UI-face-2.jpg" alt=""
+                                            class="img-fluid rounded-circle w-50 p-4">
                                     </div>
                                     <div class="card-body">
                                         <h3 class="card-title">Amiel Barbara</h3>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
-                                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
+                                            Nada melhor do que começar o dia e ter um leque de opções de livros, tenho uma rotina rigorosa, adoro ler, 2 livros por semana, mas tenho dificuldades de encontrar boas versões fisicamente e online, mas Books me proporciona isso.
                                         </p>
-                                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                                        <p class="text-black-50">CEO at Google</p>
+                                        <a href="#" class="text-secondary text-decoration-none">Belo Horizonte</a>
+                                        <p class="text-black-50">CEO na Petrobras</p>
                                     </div>
                                 </div>
                             </div>
@@ -297,11 +321,10 @@
                         <div class="card-body">
                             <h3 class="card-title">Olivia Louis</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
-                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
+                                Confio muito no site, não tem burocracia e me ajuda muito no dia a dia, trabalho com crianças e minha didática necessita de uma enorme variedade de livros Books nunca me deixou na mão, meus alunos adoram as ilustrações
                             </p>
-                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                            <p class="text-black-50">CEO at Google</p>
+                            <a href="#" class="text-secondary text-decoration-none">Rio Branco</a>
+                            <p class="text-black-50">CEO na Santander</p>
                         </div>
                     </div>
                 </div>
@@ -310,22 +333,26 @@
     </main>
 
     <footer>
+
         <div class="container-fluid p-0">
             <div class="row text-left">
+
                 <div class="col-md-5 col-sm-5">
                     <h4 class="text-light">Sobre nós</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maxime ea similique illum corrupti</p>
+                    <p class="text-muted">Estamos aqui para torna sua vida mais prática e ampliar seus horizontes, cada página uma emoção, uma sensação, cada livro um novo mundo, venha se aventurar, saia da sua sala e venha descobrir universos.</p>
                     <p class="pt-4 text-muted">Copyright ©2019 Todos os direitos reservados | Este modelo é feito por
-                        <span>Daily Tuition</span>
+                        <span>Camila Carla Soares</span> orientado pelos tutoriais de: Daily Tuition
                     </p>
                 </div>
+
                 <div class="col-md-5 col-sm-12">
                     <h4 class="text-light">Boletim de Notícias</h4>
                     <p class="text-muted">Ficar atualizado</p>
                     <form class="form-inline">
                         <div class="col pl-0">
                             <div class="input-group pr-5">
-                                <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
+                                <input type="text" class="form-control bg-dark text-white"
+                                    id="inlineFormInputGroupUsername2" placeholder="Email">
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">
                                         <i class="fas fa-arrow-right"></i>
@@ -335,6 +362,7 @@
                         </div>
                     </form>
                 </div>
+
                 <div class="col-md-2 col-sm-12">
                     <h4 class="text-light">Siga-nos</h4>
                     <p class="text-muted">Sejamos sociais</p>
@@ -345,14 +373,26 @@
                         <i class="fab fa-youtube"></i>
                     </div>
                 </div>
+
             </div>
         </div>
+
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+        integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- Interno -->
     <script src="main.js"></script>
 
 </body>
+
 </html>
