@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
-*{
-    box-sizing: border-box;  
-} 
+
+* {
+    box-sizing: border-box;
+}
 
 header,
 section {
@@ -18,11 +19,12 @@ section {
     --light-gray: rgba(255, 255, 255, 0.877);
 }
 
-header a{
+header a {
     font-family: var(--Sniglet-font);
     font-size: 0.9em;
     color: whitesmoke;
 }
+
 /*passar o cursor e aparecer outras opções*/
 .dropdown-content {
     display: none;
@@ -47,6 +49,7 @@ header a{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 /*fim*/
 header .nav-item:last-child {
     padding-right: 10.5rem;
@@ -79,7 +82,7 @@ header .row .col-md-5 img {
 
 header {
     background: #ff512f;
-    /* fallback for old browsers */
+    /* fallback para navegadores antigos */
     background: var(--bggradient);
 }
 
@@ -107,11 +110,12 @@ header .container .col-md-7 p {
     font-weight: bold;
 }
 
-/********** section 1 **************/
+/* section 1 */
 
 .section-1 {
     padding: 20vmin 0vmin;
 }
+
 /*Ajeitar a imagem*/
 .section-1 .row .col-md-6 .pray img {
     opacity: 0.8;
@@ -122,6 +126,7 @@ header .container .col-md-7 p {
 .section-1 .row .col-md-6:last-child {
     position: relative;
 }
+
 /*Aquele painel sobre a imagem com sombra*/
 .section-1 .row .col-md-6 .panel {
     position: absolute;
@@ -174,13 +179,13 @@ header .container .col-md-7 p {
     padding-top: 19vmin;
 }
 
-.cover .content > h1 {
+.cover .content>h1 {
     font-family: var(--Patua);
     font-size: 6vmin;
     color: whitesmoke;
 }
 
-.cover .content > p {
+.cover .content>p {
     font-family: var(--Rubik);
     font-size: 2vmin;
     color: #e5e5e5;
@@ -198,26 +203,26 @@ header .container .col-md-7 p {
     box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
 }
 
-.numbers{
+.numbers {
     margin-top: -15vmin;
 }
 
-.numbers .rect h1{
+.numbers .rect h1 {
     font-size: 5rem;
     color: tomato;
 }
 
-.numbers .rect > p {
+.numbers .rect>p {
     font-family: var(--Patua);
 }
 
-.purchase > h1 {
+.purchase>h1 {
     padding-top: 15vmin;
     padding-bottom: 0.1em;
     font-family: var(--Lobster);
 }
 
-.purchase > p {
+.purchase>p {
     color: var(--light-black);
     font-size: 3vmin;
     padding-bottom: 10vmin;
@@ -250,7 +255,7 @@ header .container .col-md-7 p {
     border-top-left-radius: 170px;
 }
 
-.card-body .pricing > h1 {
+.card-body .pricing>h1 {
     font-size: 10vmin;
     padding: 1em 0.5em;
 }
@@ -263,18 +268,19 @@ header .container .col-md-7 p {
     background: var(--bggradient);
 }
 
-.section-3 .col-md-12 > h1 {
+.section-3 .col-md-12>h1 {
     padding: 2em 0 0.5em 0;
     color: whitesmoke;
     font-size: 6vmin;
 }
 
-.section-3 .col-md-12 > p {
+.section-3 .col-md-12>p {
     padding: 0 4em;
     padding-bottom: 2em;
     color: var(--light-gray);
     font-size: 3vmin;
 }
+
 /*ficou como botão*/
 .section-3 .desktop {
     background: white;
@@ -312,7 +318,7 @@ header .container .col-md-7 p {
     padding: 0.5em;
 }
 
-.section-4 .card-body > a {
+.section-4 .card-body>a {
     font-size: 1.5em;
 }
 
@@ -331,7 +337,7 @@ footer {
     padding: 14vmin 18vmin;
 }
 
-footer p > span {
+footer p>span {
     color: #ff512f;
 }
 
@@ -352,9 +358,9 @@ footer .column i {
     color: #dd2476;
 }
 
-/* It is Adjacent sibling combinator */
+/* É um combinador irmão adjacente */
 
-footer .column i + i {
+footer .column i+i {
     padding: 0 0.5em;
 }
 

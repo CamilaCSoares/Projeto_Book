@@ -1,17 +1,18 @@
+
 let nCount = selector => {
     $(selector).each(function () {
       $(this)
         .animate({
           Counter: $(this).text()
         }, {
-          // A string or number determining how long the animation will run.
+          // Uma string ou número que determina por quanto tempo a animação será executada.
           duration: 4000,
-          // A string indicating which easing function to use for the transition.
+          // Uma string indicando qual função de atenuação usar para a transição.
           easing: "swing",
           /**
-           * A function to be called for each animated property of each animated element. 
-           * This function provides an opportunity to
-           *  modify the Tween object to change the value of the property before it is set.
+           * Uma função a ser chamada para cada propriedade animada de cada elemento animado.
+           * Esta função oferece a oportunidade de
+           * modifique o objeto Tween para alterar o valor da propriedade antes que ela seja definida.
            */
           step: function (value) {
             $(this).text(Math.ceil(value));
@@ -22,7 +23,7 @@ let nCount = selector => {
   
   let a = 0;
   $(window).scroll(function () {
-    // The .offset() method allows us to retrieve the current position of an element  relative to the document
+    // O método .offset() nos permite recuperar a posição atual de um elemento em relação ao documento
     let oTop = $(".numbers").offset().top - window.innerHeight;
     if (a == 0 && $(window).scrollTop() >= oTop) {
       a++;
@@ -34,14 +35,14 @@ let nCount = selector => {
   
   /**
    *
-   *  sticky navigation
+   *  navegação pegajosa
    *
    */
   
   let navbar = $(".navbar");
   
   $(window).scroll(function () {
-    // get the complete hight of window
+    // obter a altura completa da janela
     let oTop = $(".section-2").offset().top - window.innerHeight;
     if ($(window).scrollTop() > oTop) {
       navbar.addClass("sticky");
